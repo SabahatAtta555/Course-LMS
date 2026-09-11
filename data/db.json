@@ -1,0 +1,3183 @@
+{
+  "users": [
+    {
+      "id": "usr_student",
+      "name": "Amna Khan",
+      "email": "student@coursepilot.dev",
+      "passwordHash": "a1ef269b907ec2d7f9f37348893f4b46:b68387fed62a018e0a3215ca536a673ad4122cae1b311d32fd67a2b942c524b48b1eec0a648d480fed40f3c1de27e1a71838db1c22a2f217d9265b06f3160cf3",
+      "role": "student",
+      "joinedAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "id": "usr_instructor",
+      "name": "Ayesha Rahman",
+      "email": "instructor@coursepilot.dev",
+      "passwordHash": "aab188730d248e387a3c9aa82ac69136:6215ff95070bc28f6461c75ae9a5d57457b98d8ab33b6afeb4f67a1f97a74181f0933077000a956a613d620d7794218e74aa3269b096616f9027aff5bd502b13",
+      "role": "instructor",
+      "joinedAt": "2026-07-01T09:00:00.000Z"
+    },
+    {
+      "id": "usr_admin",
+      "name": "Omar Siddiqui",
+      "email": "admin@coursepilot.dev",
+      "passwordHash": "12e5b8d245bf88976a8436980713ba6a:ae7c0a9ebd7ab00a1eccdccb8a1463b2b8c6940c78d8987851f301379037873ccd57ebb2311b83b0d29a02c059ec8ac08de95a67edd1da0cfba7fec5a4b38384",
+      "role": "admin",
+      "joinedAt": "2026-06-01T09:00:00.000Z"
+    }
+  ],
+  "sessions": [],
+  "courses": [
+    {
+      "id": "fullstack-web",
+      "title": "Full Stack Web Development",
+      "category": "Development",
+      "level": "Intermediate",
+      "duration": "8 weeks",
+      "rating": 4.9,
+      "students": 1248,
+      "price": 0,
+      "description": "Build a complete modern web application from responsive UI to REST APIs, authentication and deployment using JavaScript and Node.js.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "REST APIs"
+      ],
+      "cover": "images/courses/se310.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "fs1",
+          "title": "How the Full Stack Fits Together",
+          "duration": "12 min",
+          "content": "Understand browsers, servers, APIs and databases, and how requests travel through a modern full-stack application."
+        },
+        {
+          "id": "fs2",
+          "title": "Responsive UI Foundations",
+          "duration": "24 min",
+          "content": "Build accessible page structure with semantic HTML, modern CSS layout, reusable components and responsive design."
+        },
+        {
+          "id": "fs3",
+          "title": "JavaScript for Interactive Apps",
+          "duration": "28 min",
+          "content": "Use modules, async functions, DOM events and fetch to create interactive application behavior."
+        },
+        {
+          "id": "fs4",
+          "title": "Building REST APIs with Express",
+          "duration": "30 min",
+          "content": "Create Express routes, validate request bodies, return JSON responses and structure backend services."
+        },
+        {
+          "id": "fs5",
+          "title": "Authentication & Protected Routes",
+          "duration": "26 min",
+          "content": "Implement registration, password hashing, login sessions and authorization for protected resources."
+        },
+        {
+          "id": "fs6",
+          "title": "Data Persistence & CRUD",
+          "duration": "32 min",
+          "content": "Model application data, persist records, and implement create, read, update and delete workflows."
+        },
+        {
+          "id": "fs7",
+          "title": "Connect Frontend to Backend",
+          "duration": "25 min",
+          "content": "Consume your API from the browser, manage loading and error states, and keep UI state synchronized."
+        },
+        {
+          "id": "fs8",
+          "title": "Testing & Deployment",
+          "duration": "22 min",
+          "content": "Check critical flows, configure production settings and deploy a full-stack application safely."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "fullstackweb_q1",
+          "question": "Which HTTP method is normally used to create a new resource?",
+          "options": [
+            "GET",
+            "POST",
+            "DELETE",
+            "HEAD"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "fullstackweb_q2",
+          "question": "Why are passwords hashed before storage?",
+          "options": [
+            "To make them shorter",
+            "To hide the email",
+            "To avoid storing plain-text passwords",
+            "To speed up CSS"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "fullstackweb_q3",
+          "question": "What does a REST API commonly return to a frontend?",
+          "options": [
+            "JSON data",
+            "Only images",
+            "Compiled CSS",
+            "A database file"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "fullstackweb_q4",
+          "question": "What is the main purpose of protected routes?",
+          "options": [
+            "Change colors",
+            "Limit access to authorized users",
+            "Compress images",
+            "Rename files"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "fullstackweb_q5",
+          "question": "Which layer usually handles database access?",
+          "options": [
+            "Backend",
+            "HTML only",
+            "Browser bookmarks",
+            "CSS"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "react-frontend",
+      "title": "React Frontend Mastery",
+      "category": "Frontend",
+      "level": "Intermediate",
+      "duration": "6 weeks",
+      "rating": 4.8,
+      "students": 980,
+      "price": 0,
+      "description": "Create reusable React interfaces with component architecture, hooks, routing, API integration and production-ready UI patterns.",
+      "skills": [
+        "React",
+        "Hooks",
+        "Components",
+        "Routing",
+        "APIs"
+      ],
+      "cover": "images/courses/cs201.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "re1",
+          "title": "Components & JSX",
+          "duration": "18 min",
+          "content": "Break interfaces into reusable components and express UI structure with JSX."
+        },
+        {
+          "id": "re2",
+          "title": "Props, State & Events",
+          "duration": "22 min",
+          "content": "Pass data through props, manage local state and respond to user interaction."
+        },
+        {
+          "id": "re3",
+          "title": "Hooks in Practice",
+          "duration": "26 min",
+          "content": "Use useState and useEffect correctly for stateful UI and side effects."
+        },
+        {
+          "id": "re4",
+          "title": "Routing & Layouts",
+          "duration": "20 min",
+          "content": "Build multi-view experiences with route-aware layouts and navigation."
+        },
+        {
+          "id": "re5",
+          "title": "Working with APIs",
+          "duration": "28 min",
+          "content": "Load remote data, submit forms and handle errors and loading states."
+        },
+        {
+          "id": "re6",
+          "title": "Production UI Patterns",
+          "duration": "24 min",
+          "content": "Apply accessibility, performance and reusable design patterns to a complete frontend."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "reactfrontend_q1",
+          "question": "What is a React prop?",
+          "options": [
+            "Data passed to a component",
+            "A database",
+            "A CSS compiler",
+            "A server port"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "reactfrontend_q2",
+          "question": "Which hook is commonly used for local state?",
+          "options": [
+            "useState",
+            "useColor",
+            "useRouteFile",
+            "useHTML"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "reactfrontend_q3",
+          "question": "What should loading UI communicate?",
+          "options": [
+            "The app has crashed",
+            "Work is in progress",
+            "The user is logged out",
+            "CSS is missing"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "python-api",
+      "title": "Python Backend APIs",
+      "category": "Backend",
+      "level": "Beginner",
+      "duration": "5 weeks",
+      "rating": 4.7,
+      "students": 766,
+      "price": 0,
+      "description": "Learn backend fundamentals by designing APIs, validation, authentication concepts and clean server-side application structure with Python.",
+      "skills": [
+        "Python",
+        "APIs",
+        "Backend",
+        "Validation",
+        "Authentication"
+      ],
+      "cover": "images/courses/db220.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "py1",
+          "title": "Backend Thinking",
+          "duration": "14 min",
+          "content": "Understand server responsibilities, request-response cycles and data validation."
+        },
+        {
+          "id": "py2",
+          "title": "Python API Structure",
+          "duration": "23 min",
+          "content": "Organize routes, services and reusable backend functions."
+        },
+        {
+          "id": "py3",
+          "title": "Input Validation",
+          "duration": "18 min",
+          "content": "Validate and sanitize incoming data before it reaches business logic."
+        },
+        {
+          "id": "py4",
+          "title": "Authentication Concepts",
+          "duration": "20 min",
+          "content": "Learn sessions, tokens, password hashing and access control."
+        },
+        {
+          "id": "py5",
+          "title": "CRUD API Project",
+          "duration": "35 min",
+          "content": "Build a complete CRUD-style backend service and test its endpoints."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "pythonapi_q1",
+          "question": "Where should input validation happen?",
+          "options": [
+            "Only in CSS",
+            "At API boundaries",
+            "Only in README",
+            "Never"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "pythonapi_q2",
+          "question": "CRUD includes which action?",
+          "options": [
+            "Create",
+            "Compile CSS only",
+            "Draw icons",
+            "Change monitor brightness"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "pythonapi_q3",
+          "question": "Authentication answers which question?",
+          "options": [
+            "Who is the user?",
+            "What color is the page?",
+            "How wide is the screen?",
+            "What font is installed?"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ai-automation",
+      "title": "AI Automation with Python",
+      "category": "AI & Automation",
+      "level": "Intermediate",
+      "duration": "6 weeks",
+      "rating": 4.9,
+      "students": 1104,
+      "price": 0,
+      "description": "Design practical AI-assisted workflows using Python, APIs, structured prompts, automation logic and reliable human-in-the-loop checks.",
+      "skills": [
+        "Python",
+        "Automation",
+        "APIs",
+        "AI Workflows",
+        "Prompt Design"
+      ],
+      "cover": "images/courses/ai330.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "ai1",
+          "title": "Automation Opportunities",
+          "duration": "16 min",
+          "content": "Identify repetitive tasks and choose where automation creates useful, measurable value."
+        },
+        {
+          "id": "ai2",
+          "title": "Structured Prompts",
+          "duration": "20 min",
+          "content": "Create prompts with clear inputs, constraints and output formats for reliable downstream use."
+        },
+        {
+          "id": "ai3",
+          "title": "API-Driven Workflows",
+          "duration": "28 min",
+          "content": "Connect services through APIs and transform returned data into useful actions."
+        },
+        {
+          "id": "ai4",
+          "title": "Python Automation Logic",
+          "duration": "32 min",
+          "content": "Build reusable Python steps for processing, routing and validating workflow data."
+        },
+        {
+          "id": "ai5",
+          "title": "Human Review & Safety",
+          "duration": "20 min",
+          "content": "Add approval gates, logging and safe fallbacks for higher-impact automated actions."
+        },
+        {
+          "id": "ai6",
+          "title": "Capstone Workflow",
+          "duration": "38 min",
+          "content": "Combine triggers, AI processing, validation and outputs into a complete automation project."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "aiautomation_q1",
+          "question": "What improves automation reliability?",
+          "options": [
+            "No validation",
+            "Clear inputs and checks",
+            "Random outputs",
+            "Removing logs"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "aiautomation_q2",
+          "question": "Why use a human review step?",
+          "options": [
+            "For high-impact decisions",
+            "To slow every workflow",
+            "To hide errors",
+            "To replace all APIs"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "aiautomation_q3",
+          "question": "APIs are commonly used to?",
+          "options": [
+            "Connect services",
+            "Change keyboard color",
+            "Print paper automatically",
+            "Replace HTML"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "javascript-core",
+      "title": "Modern JavaScript Essentials",
+      "category": "Development",
+      "level": "Beginner",
+      "duration": "4 weeks",
+      "rating": 4.8,
+      "students": 1510,
+      "price": 0,
+      "description": "Strengthen JavaScript fundamentals including arrays, objects, functions, modules, async code and practical browser programming.",
+      "skills": [
+        "JavaScript",
+        "ES6+",
+        "Async/Await",
+        "DOM"
+      ],
+      "cover": "images/courses/math210.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "js1",
+          "title": "Values, Variables & Functions",
+          "duration": "20 min",
+          "content": "Use modern declarations, data types and functions to express application logic clearly."
+        },
+        {
+          "id": "js2",
+          "title": "Arrays & Objects",
+          "duration": "24 min",
+          "content": "Transform collections and model real application data with arrays and objects."
+        },
+        {
+          "id": "js3",
+          "title": "DOM & Events",
+          "duration": "22 min",
+          "content": "Read and update page content in response to user interaction."
+        },
+        {
+          "id": "js4",
+          "title": "Async JavaScript",
+          "duration": "26 min",
+          "content": "Use promises and async/await to work with operations that finish later."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "javascriptcore_q1",
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "let",
+            "style",
+            "route",
+            "query"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "javascriptcore_q2",
+          "question": "async/await is commonly used with?",
+          "options": [
+            "Promises",
+            "CSS selectors only",
+            "SVG colors",
+            "HTML comments"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "javascriptcore_q3",
+          "question": "DOM events can respond to?",
+          "options": [
+            "User interaction",
+            "Database backups only",
+            "Server restarts only",
+            "Package installs only"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "git-deploy",
+      "title": "Git, GitHub & Deployment",
+      "category": "Developer Tools",
+      "level": "Beginner",
+      "duration": "3 weeks",
+      "rating": 4.7,
+      "students": 1320,
+      "price": 0,
+      "description": "Manage code with Git, publish projects on GitHub, collaborate safely and prepare web applications for deployment.",
+      "skills": [
+        "Git",
+        "GitHub",
+        "Deployment",
+        "Version Control"
+      ],
+      "cover": "images/courses/eng105.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "git1",
+          "title": "Git Fundamentals",
+          "duration": "17 min",
+          "content": "Track project history using repositories, commits and meaningful change sets."
+        },
+        {
+          "id": "git2",
+          "title": "Branches & Collaboration",
+          "duration": "21 min",
+          "content": "Use branches and pull-request style workflows to isolate and review changes."
+        },
+        {
+          "id": "git3",
+          "title": "GitHub Portfolio Workflow",
+          "duration": "20 min",
+          "content": "Structure repositories, write useful README files and publish portfolio-ready projects."
+        },
+        {
+          "id": "git4",
+          "title": "Deployment Checklist",
+          "duration": "24 min",
+          "content": "Prepare environment settings, static assets and production commands for deployment."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "gitdeploy_q1",
+          "question": "What does a Git commit represent?",
+          "options": [
+            "A saved project change",
+            "A CSS theme",
+            "A browser cookie",
+            "A database password"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "gitdeploy_q2",
+          "question": "Why use branches?",
+          "options": [
+            "To isolate work",
+            "To remove version history",
+            "To avoid commits",
+            "To replace hosting"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "gitdeploy_q3",
+          "question": "A README should help visitors understand?",
+          "options": [
+            "What the project is and how to run it",
+            "Only the author birthday",
+            "Monitor settings",
+            "Nothing"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "redux-bootstrap-ui",
+      "title": "Redux Toolkit & Bootstrap Applications",
+      "category": "Frontend",
+      "level": "Intermediate",
+      "duration": "5 weeks",
+      "rating": 4.8,
+      "students": 786,
+      "price": 0,
+      "description": "Build maintainable frontend applications with Redux Toolkit state management, Bootstrap components and production-ready UI patterns.",
+      "skills": [
+        "Redux Toolkit",
+        "Bootstrap",
+        "Problem Solving",
+        "API Development"
+      ],
+      "cover": "images/courses/redux.svg",
+      "lessons": [
+        {
+          "id": "rt1",
+          "title": "Redux Toolkit Foundations",
+          "duration": "18 min",
+          "content": "Understand stores, slices, reducers and actions, and why Redux Toolkit is the recommended modern Redux workflow."
+        },
+        {
+          "id": "rt2",
+          "title": "Async State and API Data",
+          "duration": "26 min",
+          "content": "Use async thunks and structured state to load API data, model loading states and handle failures cleanly."
+        },
+        {
+          "id": "rt3",
+          "title": "Bootstrap Responsive UI",
+          "duration": "24 min",
+          "content": "Build responsive layouts, navigation, forms, cards and utilities with Bootstrap while keeping components reusable."
+        },
+        {
+          "id": "rt4",
+          "title": "Connecting UI and Global State",
+          "duration": "28 min",
+          "content": "Connect Bootstrap interfaces to Redux state, selectors and dispatch flows without tightly coupling presentation to data."
+        },
+        {
+          "id": "rt5",
+          "title": "Maintainable Frontend Architecture",
+          "duration": "22 min",
+          "content": "Organize features, shared components and API logic for a frontend that is easier to test, debug and extend."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "reduxbootstrapui_q1",
+          "question": "What does a Redux Toolkit slice normally contain?",
+          "options": [
+            "Only CSS",
+            "State, reducers and generated actions",
+            "Database tables",
+            "HTML templates"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "reduxbootstrapui_q2",
+          "question": "Which Bootstrap concept helps create responsive layouts?",
+          "options": [
+            "Grid system",
+            "SQL joins",
+            "JWT only",
+            "File hashing"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "reduxbootstrapui_q3",
+          "question": "Why use selectors in Redux?",
+          "options": [
+            "To read derived state cleanly",
+            "To upload files",
+            "To compile Java",
+            "To replace APIs"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "reduxbootstrapui_q4",
+          "question": "What is a useful purpose of async thunks?",
+          "options": [
+            "Handle async API workflows",
+            "Style buttons",
+            "Create database indexes",
+            "Encrypt images"
+          ],
+          "answer": 0
+        }
+      ],
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70
+    },
+    {
+      "id": "python-api-engineering",
+      "title": "Python API Engineering: Django REST & Flask",
+      "category": "Backend",
+      "level": "Intermediate",
+      "duration": "7 weeks",
+      "rating": 4.9,
+      "students": 1120,
+      "price": 0,
+      "description": "Design, build, document and test Python APIs with Django REST Framework, Flask, SQLite and modern API tooling.",
+      "skills": [
+        "Django REST Framework",
+        "Flask",
+        "SQLite",
+        "API Development",
+        "Postman",
+        "Swagger",
+        "OpenAPI"
+      ],
+      "cover": "images/courses/python-api-pro.svg",
+      "lessons": [
+        {
+          "id": "pae_py1",
+          "title": "REST API Design Principles",
+          "duration": "22 min",
+          "content": "Model resources, endpoints, status codes and request/response contracts before implementing backend code."
+        },
+        {
+          "id": "pae_py2",
+          "title": "Django REST Framework",
+          "duration": "32 min",
+          "content": "Create serializers, API views, routers and validation flows using Django REST Framework."
+        },
+        {
+          "id": "pae_py3",
+          "title": "Flask API Services",
+          "duration": "28 min",
+          "content": "Build lightweight Flask endpoints, organize blueprints and return consistent JSON responses."
+        },
+        {
+          "id": "pae_py4",
+          "title": "SQLite Persistence",
+          "duration": "26 min",
+          "content": "Store and query application data with SQLite while keeping persistence concerns separated from API logic."
+        },
+        {
+          "id": "pae_py5",
+          "title": "Testing with Postman",
+          "duration": "20 min",
+          "content": "Create Postman collections for authentication, CRUD requests, edge cases and regression checks."
+        },
+        {
+          "id": "pae_py6",
+          "title": "Swagger & OpenAPI Documentation",
+          "duration": "25 min",
+          "content": "Describe API schemas and endpoints with OpenAPI and expose interactive Swagger documentation."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "pythonapienginee_q1",
+          "question": "What is Django REST Framework mainly used for?",
+          "options": [
+            "Building REST APIs in Django",
+            "Styling pages",
+            "Hosting S3 buckets",
+            "Compiling Java"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "pythonapienginee_q2",
+          "question": "What is SQLite?",
+          "options": [
+            "A serverless relational database",
+            "A CSS framework",
+            "A cloud CDN",
+            "A Java framework"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "pythonapienginee_q3",
+          "question": "What does OpenAPI describe?",
+          "options": [
+            "An API contract",
+            "A Git branch",
+            "A Docker image registry",
+            "A UI color"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "pythonapienginee_q4",
+          "question": "Postman is commonly used to do what?",
+          "options": [
+            "Send and test API requests",
+            "Train robots",
+            "Manage CSS variables",
+            "Create EC2 instances"
+          ],
+          "answer": 0
+        }
+      ],
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70
+    },
+    {
+      "id": "java-spring-services",
+      "title": "Java Spring MVC & Security",
+      "category": "Backend",
+      "level": "Advanced",
+      "duration": "8 weeks",
+      "rating": 4.9,
+      "students": 940,
+      "price": 0,
+      "description": "Create secure enterprise-style Java web services using Spring MVC, Spring Security and documented REST APIs.",
+      "skills": [
+        "Java",
+        "Spring MVC",
+        "Spring Security",
+        "API Development",
+        "Postman",
+        "Swagger",
+        "OpenAPI"
+      ],
+      "cover": "images/courses/java-spring.svg",
+      "lessons": [
+        {
+          "id": "jss_js1",
+          "title": "Java Web Service Architecture",
+          "duration": "24 min",
+          "content": "Structure Java applications into controllers, services, models and data-access responsibilities."
+        },
+        {
+          "id": "jss_js2",
+          "title": "Spring MVC Controllers",
+          "duration": "30 min",
+          "content": "Build request mappings, validation, REST controllers and predictable JSON responses with Spring MVC."
+        },
+        {
+          "id": "jss_js3",
+          "title": "Spring Security Foundations",
+          "duration": "32 min",
+          "content": "Protect endpoints using authentication, authorization, password encoding and role-based access controls."
+        },
+        {
+          "id": "jss_js4",
+          "title": "REST API Development",
+          "duration": "28 min",
+          "content": "Design CRUD resources and error responses that are consistent and easy for frontend clients to consume."
+        },
+        {
+          "id": "jss_js5",
+          "title": "Postman Verification",
+          "duration": "18 min",
+          "content": "Exercise secured endpoints with Postman and validate both successful and unauthorized flows."
+        },
+        {
+          "id": "jss_js6",
+          "title": "Swagger / OpenAPI",
+          "duration": "22 min",
+          "content": "Publish machine-readable API documentation and interactive Swagger reference pages."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "javaspringservic_q1",
+          "question": "Which Spring module handles web MVC request routing?",
+          "options": [
+            "Spring MVC",
+            "TensorFlow",
+            "Bootstrap",
+            "SQLite"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "javaspringservic_q2",
+          "question": "What is Spring Security used for?",
+          "options": [
+            "Authentication and authorization",
+            "Image compression",
+            "CSS grids",
+            "Cloud storage"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "javaspringservic_q3",
+          "question": "Which language is used in this course?",
+          "options": [
+            "Java",
+            "PHP",
+            "Ruby",
+            "Go"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "javaspringservic_q4",
+          "question": "Why document an API with OpenAPI?",
+          "options": [
+            "To define a clear API contract",
+            "To replace all testing",
+            "To host EC2",
+            "To style HTML"
+          ],
+          "answer": 0
+        }
+      ],
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70
+    },
+    {
+      "id": "php-api-foundations",
+      "title": "PHP Backend & API Foundations",
+      "category": "Backend",
+      "level": "Beginner",
+      "duration": "5 weeks",
+      "rating": 4.7,
+      "students": 670,
+      "price": 0,
+      "description": "Build practical PHP backend applications with SQLite persistence, REST-style endpoints, Bootstrap forms and API testing.",
+      "skills": [
+        "PHP",
+        "SQLite",
+        "Bootstrap",
+        "API Development",
+        "Postman"
+      ],
+      "cover": "images/courses/php.svg",
+      "lessons": [
+        {
+          "id": "ph1",
+          "title": "Modern PHP Basics",
+          "duration": "22 min",
+          "content": "Work with variables, arrays, functions, request data and clean application structure in PHP."
+        },
+        {
+          "id": "ph2",
+          "title": "Forms with Bootstrap",
+          "duration": "20 min",
+          "content": "Create responsive forms and validation feedback using Bootstrap UI components."
+        },
+        {
+          "id": "ph3",
+          "title": "SQLite CRUD",
+          "duration": "28 min",
+          "content": "Create, read, update and delete records from a lightweight SQLite database through PHP."
+        },
+        {
+          "id": "ph4",
+          "title": "PHP API Endpoints",
+          "duration": "30 min",
+          "content": "Return JSON, validate request payloads and organize REST-style API routes for frontend clients."
+        },
+        {
+          "id": "ph5",
+          "title": "API Testing in Postman",
+          "duration": "18 min",
+          "content": "Use Postman to verify CRUD requests, validation errors and expected HTTP status codes."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "phpapifoundation_q1",
+          "question": "PHP commonly runs on which side of a web app?",
+          "options": [
+            "Server",
+            "Only browser CSS",
+            "GPU firmware",
+            "DNS only"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "phpapifoundation_q2",
+          "question": "What does CRUD stand for?",
+          "options": [
+            "Create Read Update Delete",
+            "Compile Run Upload Deploy",
+            "Cache Route User Data",
+            "None"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "phpapifoundation_q3",
+          "question": "Which database is included in this course?",
+          "options": [
+            "SQLite",
+            "Oracle only",
+            "DynamoDB only",
+            "None"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "phpapifoundation_q4",
+          "question": "Postman helps validate what?",
+          "options": [
+            "API requests and responses",
+            "Font files",
+            "Robot motors",
+            "CSS animations"
+          ],
+          "answer": 0
+        }
+      ],
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70
+    },
+    {
+      "id": "software-testing-quality",
+      "title": "Software Testing, Maintenance & Issue Resolution",
+      "category": "Software Engineering",
+      "level": "Intermediate",
+      "duration": "6 weeks",
+      "rating": 4.8,
+      "students": 815,
+      "price": 0,
+      "description": "Improve software quality with unit testing, integration testing, systematic issue resolution and maintainable application support practices.",
+      "skills": [
+        "Unit Testing",
+        "Integration Testing",
+        "Application Maintenance",
+        "Issue Resolution",
+        "Problem Solving"
+      ],
+      "cover": "images/courses/testing.svg",
+      "lessons": [
+        {
+          "id": "t1",
+          "title": "Testing Strategy",
+          "duration": "20 min",
+          "content": "Separate unit, integration and end-to-end concerns and choose the smallest useful test for each risk."
+        },
+        {
+          "id": "t2",
+          "title": "Unit Testing",
+          "duration": "28 min",
+          "content": "Test functions and components in isolation using clear arrangements, assertions and meaningful edge cases."
+        },
+        {
+          "id": "t3",
+          "title": "Integration Testing",
+          "duration": "30 min",
+          "content": "Verify that APIs, databases and services work correctly together across realistic application boundaries."
+        },
+        {
+          "id": "t4",
+          "title": "Issue Resolution Workflow",
+          "duration": "24 min",
+          "content": "Reproduce defects, isolate causes, apply focused fixes and confirm that regressions are prevented."
+        },
+        {
+          "id": "t5",
+          "title": "Application Maintenance",
+          "duration": "22 min",
+          "content": "Plan dependency updates, refactoring and ongoing technical maintenance without destabilizing production behavior."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "softwaretestingq_q1",
+          "question": "What does a unit test normally focus on?",
+          "options": [
+            "A small isolated unit of behavior",
+            "Every external service at once",
+            "Only UI colors",
+            "Cloud billing"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "softwaretestingq_q2",
+          "question": "Integration testing checks what?",
+          "options": [
+            "How components work together",
+            "Only spelling",
+            "Only Git history",
+            "Only design"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "softwaretestingq_q3",
+          "question": "What is a good first step when resolving an issue?",
+          "options": [
+            "Reproduce it reliably",
+            "Delete the database",
+            "Rewrite everything",
+            "Ignore logs"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "softwaretestingq_q4",
+          "question": "Why add regression tests after a bug fix?",
+          "options": [
+            "To help prevent the bug returning",
+            "To slow deployment",
+            "To remove APIs",
+            "To avoid documentation"
+          ],
+          "answer": 0
+        }
+      ],
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70
+    },
+    {
+      "id": "production-reliability",
+      "title": "Production Reliability & Support Engineering",
+      "category": "Software Engineering",
+      "level": "Advanced",
+      "duration": "6 weeks",
+      "rating": 4.8,
+      "students": 590,
+      "price": 0,
+      "description": "Support production applications through deployment assistance, monitoring, reliability practices, maintenance and disciplined incident resolution.",
+      "skills": [
+        "Application Maintenance",
+        "Issue Resolution",
+        "Deployment Support",
+        "Performance Monitoring",
+        "Reliability Support"
+      ],
+      "cover": "images/courses/reliability.svg",
+      "lessons": [
+        {
+          "id": "pr1",
+          "title": "Production Support Mindset",
+          "duration": "20 min",
+          "content": "Understand operational ownership, service health, change risk and clear support handoffs."
+        },
+        {
+          "id": "pr2",
+          "title": "Deployment Support",
+          "duration": "24 min",
+          "content": "Prepare release checklists, validate configurations and assist controlled deployments and rollback planning."
+        },
+        {
+          "id": "pr3",
+          "title": "Performance Monitoring",
+          "duration": "30 min",
+          "content": "Track latency, resource usage and error rates to identify degradation before it becomes a major outage."
+        },
+        {
+          "id": "pr4",
+          "title": "Reliability Support",
+          "duration": "28 min",
+          "content": "Use health checks, capacity awareness and failure isolation to improve dependable service operation."
+        },
+        {
+          "id": "pr5",
+          "title": "Maintenance & Issue Resolution",
+          "duration": "26 min",
+          "content": "Prioritize production issues, document root causes and turn recurring incidents into permanent engineering improvements."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "productionreliab_q1",
+          "question": "What does performance monitoring help detect?",
+          "options": [
+            "Latency and resource problems",
+            "Only syntax highlighting",
+            "Only button colors",
+            "Course grades"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "productionreliab_q2",
+          "question": "What should a deployment plan include?",
+          "options": [
+            "Validation and rollback steps",
+            "Only a logo",
+            "Random passwords",
+            "No checks"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "productionreliab_q3",
+          "question": "Reliability support aims to improve what?",
+          "options": [
+            "Dependable service operation",
+            "Font size only",
+            "Source control names",
+            "Spreadsheet formulas"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "productionreliab_q4",
+          "question": "A root-cause review should lead to what?",
+          "options": [
+            "Preventive improvements",
+            "Blame only",
+            "Removing monitoring",
+            "Skipping tests"
+          ],
+          "answer": 0
+        }
+      ],
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70
+    },
+    {
+      "id": "aws-devops-cloud",
+      "title": "AWS Cloud & DevOps Deployment",
+      "category": "Cloud & DevOps",
+      "level": "Intermediate",
+      "duration": "7 weeks",
+      "rating": 4.9,
+      "students": 1350,
+      "price": 0,
+      "description": "Deploy and operate applications with cloud fundamentals, AWS EC2, S3, RDS, Docker Hub and GitHub Actions CI/CD.",
+      "skills": [
+        "Cloud Computing",
+        "AWS EC2",
+        "AWS S3",
+        "AWS RDS",
+        "Docker Hub",
+        "GitHub Actions",
+        "Deployment Support",
+        "Performance Monitoring"
+      ],
+      "cover": "images/courses/aws-devops.svg",
+      "lessons": [
+        {
+          "id": "aw1",
+          "title": "Cloud Computing Foundations",
+          "duration": "22 min",
+          "content": "Understand compute, storage, managed databases, regions and shared responsibility in cloud environments."
+        },
+        {
+          "id": "aw2",
+          "title": "AWS EC2 Compute",
+          "duration": "28 min",
+          "content": "Launch and configure EC2 instances for application workloads and understand security-group basics."
+        },
+        {
+          "id": "aw3",
+          "title": "AWS S3 Storage",
+          "duration": "24 min",
+          "content": "Use S3 buckets for object storage, static assets and controlled access patterns."
+        },
+        {
+          "id": "aw4",
+          "title": "AWS RDS Databases",
+          "duration": "26 min",
+          "content": "Run managed relational databases with backups, connectivity controls and application configuration."
+        },
+        {
+          "id": "aw5",
+          "title": "Docker Hub Workflow",
+          "duration": "22 min",
+          "content": "Build application images and publish versioned containers to Docker Hub for consistent deployments."
+        },
+        {
+          "id": "aw6",
+          "title": "GitHub Actions CI/CD",
+          "duration": "30 min",
+          "content": "Automate test, build and deployment workflows using GitHub Actions pipelines."
+        },
+        {
+          "id": "aw7",
+          "title": "Deployment & Monitoring",
+          "duration": "24 min",
+          "content": "Validate releases, observe application health and use monitoring signals to support reliable cloud operation."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "awsdevopscloud_q1",
+          "question": "What does EC2 provide?",
+          "options": [
+            "Virtual compute instances",
+            "Object storage only",
+            "API docs",
+            "CSS components"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "awsdevopscloud_q2",
+          "question": "What is S3 primarily used for?",
+          "options": [
+            "Object storage",
+            "Java compilation",
+            "Redux state",
+            "SQL joins only"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "awsdevopscloud_q3",
+          "question": "What does RDS provide?",
+          "options": [
+            "Managed relational databases",
+            "Frontend routing",
+            "Robot control",
+            "Source code hosting"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "awsdevopscloud_q4",
+          "question": "What can GitHub Actions automate?",
+          "options": [
+            "CI/CD workflows",
+            "Only course certificates",
+            "Only images",
+            "DNS registration only"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "awsdevopscloud_q5",
+          "question": "Docker Hub is commonly used to store what?",
+          "options": [
+            "Container images",
+            "SQLite queries",
+            "CSS variables",
+            "Exam answers"
+          ],
+          "answer": 0
+        }
+      ],
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70
+    },
+    {
+      "id": "maps-api-integration",
+      "title": "Google Maps API & Web Integrations",
+      "category": "API & Integration",
+      "level": "Intermediate",
+      "duration": "4 weeks",
+      "rating": 4.7,
+      "students": 525,
+      "price": 0,
+      "description": "Add location-aware features to web applications using Google Maps API, documented API contracts and practical integration testing.",
+      "skills": [
+        "Google Maps API",
+        "API Development",
+        "Postman",
+        "OpenAPI",
+        "Bootstrap"
+      ],
+      "cover": "images/courses/maps.svg",
+      "lessons": [
+        {
+          "id": "gm1",
+          "title": "Maps API Fundamentals",
+          "duration": "18 min",
+          "content": "Understand API keys, map initialization, markers and the request patterns used by location services."
+        },
+        {
+          "id": "gm2",
+          "title": "Location UI with Bootstrap",
+          "duration": "20 min",
+          "content": "Build responsive search, map and location-detail interfaces that work across screen sizes."
+        },
+        {
+          "id": "gm3",
+          "title": "Backend Integration Patterns",
+          "duration": "24 min",
+          "content": "Connect location features to your own API while validating inputs and minimizing unnecessary external requests."
+        },
+        {
+          "id": "gm4",
+          "title": "Testing & API Contracts",
+          "duration": "22 min",
+          "content": "Use Postman and OpenAPI descriptions to verify request parameters, responses and error handling."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mapsapiintegrati_q1",
+          "question": "What is commonly required to call Google Maps services?",
+          "options": [
+            "An API key",
+            "A Java compiler only",
+            "Redux store only",
+            "Docker Hub account only"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "mapsapiintegrati_q2",
+          "question": "What does a marker represent on a map?",
+          "options": [
+            "A location point",
+            "A database transaction",
+            "A unit test",
+            "A Git branch"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "mapsapiintegrati_q3",
+          "question": "Why validate location API inputs?",
+          "options": [
+            "To prevent invalid or wasteful requests",
+            "To remove all maps",
+            "To avoid HTML",
+            "To disable errors"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "mapsapiintegrati_q4",
+          "question": "OpenAPI can document what?",
+          "options": [
+            "Integration endpoints and schemas",
+            "Only map colors",
+            "Only passwords",
+            "Only SVG files"
+          ],
+          "answer": 0
+        }
+      ],
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70
+    },
+    {
+      "id": "dsa-java-problem-solving",
+      "title": "Data Structures, Algorithms & Problem Solving",
+      "category": "Computer Science",
+      "level": "Intermediate",
+      "duration": "8 weeks",
+      "rating": 4.9,
+      "students": 1615,
+      "price": 0,
+      "description": "Strengthen coding interviews and engineering fundamentals through Java-based data structures, algorithms and structured problem solving.",
+      "skills": [
+        "Data Structures",
+        "Algorithms",
+        "Problem Solving",
+        "Java"
+      ],
+      "cover": "images/courses/dsa.svg",
+      "lessons": [
+        {
+          "id": "ds1",
+          "title": "Problem Solving Framework",
+          "duration": "22 min",
+          "content": "Turn vague requirements into inputs, constraints, examples and a step-by-step solution before coding."
+        },
+        {
+          "id": "ds2",
+          "title": "Arrays, Lists & Hash Maps",
+          "duration": "30 min",
+          "content": "Choose practical data structures based on access patterns, ordering and lookup requirements."
+        },
+        {
+          "id": "ds3",
+          "title": "Stacks, Queues & Trees",
+          "duration": "32 min",
+          "content": "Model hierarchical and ordered processing problems with classic data structures."
+        },
+        {
+          "id": "ds4",
+          "title": "Searching & Sorting Algorithms",
+          "duration": "30 min",
+          "content": "Apply common search and sorting strategies and reason about their tradeoffs."
+        },
+        {
+          "id": "ds5",
+          "title": "Complexity Analysis",
+          "duration": "26 min",
+          "content": "Use Big O notation to compare runtime and memory characteristics of candidate solutions."
+        },
+        {
+          "id": "ds6",
+          "title": "Java Coding Practice",
+          "duration": "34 min",
+          "content": "Implement algorithmic solutions cleanly in Java and test edge cases systematically."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "dsajavaproblemso_q1",
+          "question": "Which structure offers average O(1) key lookup?",
+          "options": [
+            "Hash map",
+            "Linked list only",
+            "Plain text file",
+            "Stack only"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "dsajavaproblemso_q2",
+          "question": "What does Big O describe?",
+          "options": [
+            "Growth of time or space cost",
+            "CSS specificity",
+            "Cloud regions",
+            "API authentication only"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "dsajavaproblemso_q3",
+          "question": "Which structure follows LIFO?",
+          "options": [
+            "Stack",
+            "Queue",
+            "Tree only",
+            "Hash map"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "dsajavaproblemso_q4",
+          "question": "A good problem-solving step before coding is to do what?",
+          "options": [
+            "Clarify inputs and constraints",
+            "Skip examples",
+            "Ignore edge cases",
+            "Choose random code"
+          ],
+          "answer": 0
+        }
+      ],
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70
+    },
+    {
+      "id": "agentic-ai-systems",
+      "title": "Intelligent Agents & Agentic Systems",
+      "category": "AI & Automation",
+      "level": "Advanced",
+      "duration": "7 weeks",
+      "rating": 4.9,
+      "students": 980,
+      "price": 0,
+      "description": "Design intelligent agent workflows with planning, tools, memory, TensorFlow fundamentals and API-based automation patterns.",
+      "skills": [
+        "Intelligent Agents",
+        "Agentic Systems",
+        "TensorFlow",
+        "API Development",
+        "Algorithms",
+        "Problem Solving"
+      ],
+      "cover": "images/courses/agents.svg",
+      "lessons": [
+        {
+          "id": "ag1",
+          "title": "From Models to Intelligent Agents",
+          "duration": "22 min",
+          "content": "Understand how an agent combines goals, observations, reasoning and actions around a model."
+        },
+        {
+          "id": "ag2",
+          "title": "Agentic System Architecture",
+          "duration": "30 min",
+          "content": "Design planners, tool interfaces, memory and control loops for multi-step autonomous workflows."
+        },
+        {
+          "id": "ag3",
+          "title": "Tool & API Development",
+          "duration": "28 min",
+          "content": "Expose reliable APIs that agents can call with structured inputs, outputs and clear failure behavior."
+        },
+        {
+          "id": "ag4",
+          "title": "TensorFlow Foundations",
+          "duration": "30 min",
+          "content": "Learn tensors, models and inference concepts that support intelligent applications and ML-powered components."
+        },
+        {
+          "id": "ag5",
+          "title": "Planning Algorithms",
+          "duration": "26 min",
+          "content": "Apply search and decision strategies to break complex objectives into manageable steps."
+        },
+        {
+          "id": "ag6",
+          "title": "Evaluation & Safety",
+          "duration": "24 min",
+          "content": "Measure task success, detect failure modes and add limits, validation and human review where needed."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "agenticaisystems_q1",
+          "question": "What is a core feature of an intelligent agent?",
+          "options": [
+            "It can choose actions toward a goal",
+            "It only renders CSS",
+            "It only stores files",
+            "It cannot observe inputs"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "agenticaisystems_q2",
+          "question": "What can agent tools provide?",
+          "options": [
+            "Access to APIs and external actions",
+            "Only fonts",
+            "Only HTML comments",
+            "Only database backups"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "agenticaisystems_q3",
+          "question": "TensorFlow is primarily associated with what?",
+          "options": [
+            "Machine learning",
+            "Bootstrap styling",
+            "Spring routing",
+            "Git hosting"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "agenticaisystems_q4",
+          "question": "Why evaluate agentic systems?",
+          "options": [
+            "To measure success and failure modes",
+            "To remove safeguards",
+            "To avoid APIs",
+            "To disable monitoring"
+          ],
+          "answer": 0
+        }
+      ],
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70
+    },
+    {
+      "id": "robotics-intelligent-systems",
+      "title": "Robotics Engineering & Intelligent Systems",
+      "category": "AI & Robotics",
+      "level": "Advanced",
+      "duration": "9 weeks",
+      "rating": 4.8,
+      "students": 455,
+      "price": 0,
+      "description": "Explore robotics engineering through sensing, control, algorithms and intelligent TensorFlow-powered decision systems.",
+      "skills": [
+        "Robotics Engineering",
+        "TensorFlow",
+        "Intelligent Agents",
+        "Agentic Systems",
+        "Algorithms",
+        "Problem Solving"
+      ],
+      "cover": "images/courses/robotics.svg",
+      "lessons": [
+        {
+          "id": "rb1",
+          "title": "Robotics Engineering Foundations",
+          "duration": "24 min",
+          "content": "Understand robot subsystems including sensing, actuation, computation, power and control."
+        },
+        {
+          "id": "rb2",
+          "title": "Sensors and Perception",
+          "duration": "28 min",
+          "content": "Transform sensor observations into useful environmental information for decision-making."
+        },
+        {
+          "id": "rb3",
+          "title": "Control and Motion",
+          "duration": "30 min",
+          "content": "Learn feedback, basic motion planning and control loops that connect software decisions to physical actions."
+        },
+        {
+          "id": "rb4",
+          "title": "Algorithms for Robotics",
+          "duration": "30 min",
+          "content": "Use search, path planning and state estimation ideas to solve navigation and task-planning problems."
+        },
+        {
+          "id": "rb5",
+          "title": "TensorFlow for Perception",
+          "duration": "32 min",
+          "content": "Apply machine-learning concepts to classification and perception components used by intelligent robots."
+        },
+        {
+          "id": "rb6",
+          "title": "Agentic Robot Behavior",
+          "duration": "28 min",
+          "content": "Combine planning, tools and safety constraints into intelligent agent-like behavior for robotics systems."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "roboticsintellig_q1",
+          "question": "What converts software commands into physical movement?",
+          "options": [
+            "Actuators",
+            "Stylesheets",
+            "API docs",
+            "SQL indexes"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "roboticsintellig_q2",
+          "question": "What is perception used for in robotics?",
+          "options": [
+            "Understanding sensor observations",
+            "Managing CSS",
+            "Publishing containers only",
+            "Formatting JSON only"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "roboticsintellig_q3",
+          "question": "Path planning is an example of what?",
+          "options": [
+            "An algorithmic robotics problem",
+            "A Bootstrap feature",
+            "A password hash",
+            "A database backup"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "roboticsintellig_q4",
+          "question": "TensorFlow can support robotics through what?",
+          "options": [
+            "Machine-learning perception models",
+            "Spring MVC routing",
+            "S3 bucket policies only",
+            "PHP sessions only"
+          ],
+          "answer": 0
+        }
+      ],
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70
+    },
+    {
+      "id": "typescript-scalable-apps",
+      "title": "TypeScript for Scalable Web Apps",
+      "category": "Frontend",
+      "level": "Intermediate",
+      "duration": "5 weeks",
+      "rating": 4.8,
+      "students": 842,
+      "price": 0,
+      "description": "Use TypeScript to make JavaScript applications safer, easier to refactor and more reliable as projects grow.",
+      "skills": [
+        "TypeScript",
+        "Types",
+        "Interfaces",
+        "Generics",
+        "Tooling"
+      ],
+      "cover": "images/courses/cs201.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "tsl1",
+          "title": "TypeScript Setup & Mental Model",
+          "duration": "16 min",
+          "content": "Configure TypeScript and understand how static checking improves JavaScript development."
+        },
+        {
+          "id": "tsl2",
+          "title": "Types, Unions & Narrowing",
+          "duration": "24 min",
+          "content": "Model values with primitive types, unions and control-flow narrowing."
+        },
+        {
+          "id": "tsl3",
+          "title": "Interfaces & Reusable Models",
+          "duration": "22 min",
+          "content": "Describe component props, API payloads and domain objects with reusable interfaces."
+        },
+        {
+          "id": "tsl4",
+          "title": "Generics & Utility Types",
+          "duration": "28 min",
+          "content": "Build flexible typed functions and use utility types for common transformations."
+        },
+        {
+          "id": "tsl5",
+          "title": "Type-Safe API Integration",
+          "duration": "30 min",
+          "content": "Validate assumptions at API boundaries and keep frontend data handling type-safe."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "typescriptscalab_q1",
+          "question": "What does TypeScript primarily add to JavaScript?",
+          "options": [
+            "Static type checking",
+            "A database",
+            "A browser engine",
+            "CSS variables"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "typescriptscalab_q2",
+          "question": "What is a generic useful for?",
+          "options": [
+            "Reusable type-safe code",
+            "Changing screen size",
+            "Encrypting images",
+            "Starting a database"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "typescriptscalab_q3",
+          "question": "Where are runtime API checks still useful?",
+          "options": [
+            "At external data boundaries",
+            "Only in CSS",
+            "Never",
+            "Only in comments"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "nextjs-fullstack",
+      "title": "Next.js Full Stack Development",
+      "category": "Development",
+      "level": "Intermediate",
+      "duration": "7 weeks",
+      "rating": 4.9,
+      "students": 1055,
+      "price": 0,
+      "description": "Build production-style React applications with routing, server rendering, backend handlers, authentication patterns and deployment.",
+      "skills": [
+        "Next.js",
+        "React",
+        "Server Rendering",
+        "Routing",
+        "Full Stack"
+      ],
+      "cover": "images/courses/se310.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "nxl1",
+          "title": "App Router Foundations",
+          "duration": "20 min",
+          "content": "Understand layouts, pages, nested routes and server-first rendering patterns."
+        },
+        {
+          "id": "nxl2",
+          "title": "Server & Client Components",
+          "duration": "26 min",
+          "content": "Choose the correct rendering boundary for data, interactivity and performance."
+        },
+        {
+          "id": "nxl3",
+          "title": "Data Fetching & Mutations",
+          "duration": "30 min",
+          "content": "Load server data, submit forms and refresh application state safely."
+        },
+        {
+          "id": "nxl4",
+          "title": "Authentication Patterns",
+          "duration": "28 min",
+          "content": "Structure protected routes, sessions and authorization in a full-stack React app."
+        },
+        {
+          "id": "nxl5",
+          "title": "Deployment & Production Checks",
+          "duration": "24 min",
+          "content": "Prepare environment variables, caching and deployment settings for production."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "nextjsfullstack_q1",
+          "question": "What is a layout useful for in Next.js?",
+          "options": [
+            "Shared route UI",
+            "Database backup",
+            "Image editing",
+            "Password hashing"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "nextjsfullstack_q2",
+          "question": "Which component type is required for browser event handlers?",
+          "options": [
+            "Client component",
+            "SQL component",
+            "Static file",
+            "DNS component"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "nextjsfullstack_q3",
+          "question": "What should secrets use in production?",
+          "options": [
+            "Server environment variables",
+            "Public HTML comments",
+            "CSS classes",
+            "URL fragments"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "node-express-apis",
+      "title": "Node.js & Express API Development",
+      "category": "Backend",
+      "level": "Intermediate",
+      "duration": "6 weeks",
+      "rating": 4.8,
+      "students": 936,
+      "price": 0,
+      "description": "Design maintainable REST APIs with Express, middleware, validation, authentication, error handling and service-layer structure.",
+      "skills": [
+        "Node.js",
+        "Express",
+        "REST APIs",
+        "Middleware",
+        "Authentication"
+      ],
+      "cover": "images/courses/db220.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "nel1",
+          "title": "Express Application Structure",
+          "duration": "18 min",
+          "content": "Organize routes, controllers, services and reusable middleware."
+        },
+        {
+          "id": "nel2",
+          "title": "RESTful Route Design",
+          "duration": "24 min",
+          "content": "Map resources to predictable HTTP methods, paths and status codes."
+        },
+        {
+          "id": "nel3",
+          "title": "Validation & Error Handling",
+          "duration": "26 min",
+          "content": "Reject bad input consistently and return useful error responses."
+        },
+        {
+          "id": "nel4",
+          "title": "Authentication Middleware",
+          "duration": "28 min",
+          "content": "Protect endpoints with sessions or tokens and role-aware authorization."
+        },
+        {
+          "id": "nel5",
+          "title": "API Testing & Documentation",
+          "duration": "30 min",
+          "content": "Test critical endpoints and document requests, responses and error cases."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "nodeexpressapis_q1",
+          "question": "What does Express middleware do?",
+          "options": [
+            "Runs logic in the request pipeline",
+            "Stores CSS",
+            "Creates DNS records",
+            "Compiles Java"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "nodeexpressapis_q2",
+          "question": "Which status code commonly represents a created resource?",
+          "options": [
+            "201",
+            "404",
+            "500",
+            "301"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "nodeexpressapis_q3",
+          "question": "What should validation do?",
+          "options": [
+            "Reject invalid input before business logic",
+            "Hide all errors",
+            "Change colors",
+            "Compress files"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "sql-database-design",
+      "title": "SQL & Relational Database Design",
+      "category": "Databases",
+      "level": "Beginner",
+      "duration": "6 weeks",
+      "rating": 4.9,
+      "students": 1120,
+      "price": 0,
+      "description": "Learn practical SQL, relational modeling, joins, constraints, indexes and transaction concepts using SQLite-style examples.",
+      "skills": [
+        "SQL",
+        "SQLite",
+        "Relational Modeling",
+        "Joins",
+        "Indexes"
+      ],
+      "cover": "images/courses/math210.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "sql1",
+          "title": "Tables, Rows & Relationships",
+          "duration": "20 min",
+          "content": "Model application data with entities, keys and relationships."
+        },
+        {
+          "id": "sql2",
+          "title": "SELECT, Filter & Sort",
+          "duration": "24 min",
+          "content": "Query useful data with filtering, ordering and aggregation."
+        },
+        {
+          "id": "sql3",
+          "title": "Joins in Practice",
+          "duration": "28 min",
+          "content": "Combine related tables with inner and outer joins."
+        },
+        {
+          "id": "sql4",
+          "title": "Constraints & Data Integrity",
+          "duration": "23 min",
+          "content": "Use primary keys, foreign keys and constraints to protect data quality."
+        },
+        {
+          "id": "sql5",
+          "title": "Indexes & Transactions",
+          "duration": "27 min",
+          "content": "Understand performance indexes and transaction safety for multi-step changes."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "sqldatabasedesig_q1",
+          "question": "What does a foreign key represent?",
+          "options": [
+            "A relationship between tables",
+            "A CSS selector",
+            "A cloud region",
+            "An API token"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "sqldatabasedesig_q2",
+          "question": "Which SQL clause filters rows?",
+          "options": [
+            "WHERE",
+            "STYLE",
+            "IMPORT",
+            "ROUTE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "sqldatabasedesig_q3",
+          "question": "What is an index mainly used for?",
+          "options": [
+            "Faster lookups",
+            "Password encryption",
+            "Image compression",
+            "HTML rendering"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "mongodb-nosql",
+      "title": "MongoDB & NoSQL Foundations",
+      "category": "Databases",
+      "level": "Beginner",
+      "duration": "5 weeks",
+      "rating": 4.7,
+      "students": 704,
+      "price": 0,
+      "description": "Understand document databases and build flexible data models, queries and indexes for modern application backends.",
+      "skills": [
+        "MongoDB",
+        "NoSQL",
+        "Documents",
+        "Queries",
+        "Indexes"
+      ],
+      "cover": "images/courses/db220.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "mgl1",
+          "title": "Document Database Concepts",
+          "duration": "17 min",
+          "content": "Compare document-oriented storage with relational data modeling."
+        },
+        {
+          "id": "mgl2",
+          "title": "Collections & Documents",
+          "duration": "22 min",
+          "content": "Structure collections and model nested application data."
+        },
+        {
+          "id": "mgl3",
+          "title": "CRUD Queries",
+          "duration": "26 min",
+          "content": "Create, find, update and delete documents with useful filters."
+        },
+        {
+          "id": "mgl4",
+          "title": "Indexes & Query Performance",
+          "duration": "24 min",
+          "content": "Use indexes to improve common query patterns."
+        },
+        {
+          "id": "mgl5",
+          "title": "Schema Design Tradeoffs",
+          "duration": "25 min",
+          "content": "Choose embedding or referencing based on access patterns and consistency needs."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mongodbnosql_q1",
+          "question": "MongoDB primarily stores data as what?",
+          "options": [
+            "Documents",
+            "CSS files",
+            "Compiled binaries",
+            "Spreadsheets only"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "mongodbnosql_q2",
+          "question": "Why use an index?",
+          "options": [
+            "Improve query performance",
+            "Change a document color",
+            "Start a web server",
+            "Create a route"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "mongodbnosql_q3",
+          "question": "What should guide NoSQL schema design?",
+          "options": [
+            "Application access patterns",
+            "Font choice",
+            "Screen brightness",
+            "File names"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "docker-containerization",
+      "title": "Docker & Containerization",
+      "category": "Cloud & DevOps",
+      "level": "Beginner",
+      "duration": "5 weeks",
+      "rating": 4.9,
+      "students": 990,
+      "price": 0,
+      "description": "Package applications into repeatable containers using images, Dockerfiles, volumes, networks and registry workflows.",
+      "skills": [
+        "Docker",
+        "Containers",
+        "Dockerfile",
+        "Docker Hub",
+        "DevOps"
+      ],
+      "cover": "images/courses/aws-devops.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "dkl1",
+          "title": "Why Containers Matter",
+          "duration": "18 min",
+          "content": "Understand images, containers and environment consistency across machines."
+        },
+        {
+          "id": "dkl2",
+          "title": "Writing Dockerfiles",
+          "duration": "24 min",
+          "content": "Build small repeatable application images with clear layers and commands."
+        },
+        {
+          "id": "dkl3",
+          "title": "Volumes & Persistent Data",
+          "duration": "20 min",
+          "content": "Keep application data outside disposable containers."
+        },
+        {
+          "id": "dkl4",
+          "title": "Container Networking",
+          "duration": "23 min",
+          "content": "Connect services and expose only the ports applications need."
+        },
+        {
+          "id": "dkl5",
+          "title": "Docker Hub Workflow",
+          "duration": "22 min",
+          "content": "Tag, push and pull images using a container registry workflow."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "dockercontaineri_q1",
+          "question": "What is a Docker image?",
+          "options": [
+            "A reusable container template",
+            "A running database query",
+            "A CSS framework",
+            "A DNS record"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "dockercontaineri_q2",
+          "question": "What is a volume used for?",
+          "options": [
+            "Persistent data",
+            "Changing fonts",
+            "HTTP routing",
+            "Email delivery"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "dockercontaineri_q3",
+          "question": "What does Docker Hub provide?",
+          "options": [
+            "Image registry",
+            "Relational database",
+            "IDE",
+            "Browser"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "kubernetes-fundamentals",
+      "title": "Kubernetes Fundamentals",
+      "category": "Cloud & DevOps",
+      "level": "Intermediate",
+      "duration": "6 weeks",
+      "rating": 4.7,
+      "students": 615,
+      "price": 0,
+      "description": "Learn the core Kubernetes objects used to run, expose, scale and update containerized applications.",
+      "skills": [
+        "Kubernetes",
+        "Pods",
+        "Deployments",
+        "Services",
+        "Scaling"
+      ],
+      "cover": "images/courses/aws-devops.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "k8l1",
+          "title": "Cluster & Pod Basics",
+          "duration": "20 min",
+          "content": "Understand nodes, clusters and Pods as the smallest deployable unit."
+        },
+        {
+          "id": "k8l2",
+          "title": "Deployments & ReplicaSets",
+          "duration": "25 min",
+          "content": "Run replicated workloads and manage declarative application updates."
+        },
+        {
+          "id": "k8l3",
+          "title": "Services & Networking",
+          "duration": "26 min",
+          "content": "Expose workloads reliably inside or outside the cluster."
+        },
+        {
+          "id": "k8l4",
+          "title": "ConfigMaps & Secrets",
+          "duration": "22 min",
+          "content": "Separate configuration and sensitive values from application images."
+        },
+        {
+          "id": "k8l5",
+          "title": "Health Checks & Scaling",
+          "duration": "28 min",
+          "content": "Use probes and scaling concepts to improve availability."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "kubernetesfundam_q1",
+          "question": "What usually manages replicated Pods?",
+          "options": [
+            "Deployment",
+            "CSS Grid",
+            "SQL JOIN",
+            "Git branch"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "kubernetesfundam_q2",
+          "question": "What does a Service provide?",
+          "options": [
+            "Stable access to Pods",
+            "Image editing",
+            "Password hashing",
+            "Static typing"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "kubernetesfundam_q3",
+          "question": "Why use readiness probes?",
+          "options": [
+            "Avoid sending traffic before a Pod is ready",
+            "Compress files",
+            "Create databases",
+            "Rename containers"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "cicd-github-actions",
+      "title": "CI/CD with GitHub Actions",
+      "category": "Cloud & DevOps",
+      "level": "Intermediate",
+      "duration": "5 weeks",
+      "rating": 4.8,
+      "students": 783,
+      "price": 0,
+      "description": "Automate testing, builds and deployments with practical GitHub Actions workflows and release safeguards.",
+      "skills": [
+        "GitHub Actions",
+        "CI/CD",
+        "Automation",
+        "Testing",
+        "Deployment"
+      ],
+      "cover": "images/courses/aws-devops.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "gal1",
+          "title": "CI/CD Pipeline Concepts",
+          "duration": "17 min",
+          "content": "Understand continuous integration, delivery and deployment stages."
+        },
+        {
+          "id": "gal2",
+          "title": "Workflow YAML Basics",
+          "duration": "24 min",
+          "content": "Create jobs, steps, triggers and reusable environment variables."
+        },
+        {
+          "id": "gal3",
+          "title": "Automated Test Jobs",
+          "duration": "22 min",
+          "content": "Run linting and tests on pull requests before code is merged."
+        },
+        {
+          "id": "gal4",
+          "title": "Build & Artifact Workflows",
+          "duration": "23 min",
+          "content": "Package build outputs and pass artifacts between pipeline stages."
+        },
+        {
+          "id": "gal5",
+          "title": "Safe Deployment Patterns",
+          "duration": "26 min",
+          "content": "Use protected environments, secrets and deployment checks."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "cicdgithubaction_q1",
+          "question": "What commonly triggers CI?",
+          "options": [
+            "A push or pull request",
+            "Changing wallpaper",
+            "Opening a PDF",
+            "Restarting Wi-Fi"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "cicdgithubaction_q2",
+          "question": "Where should deployment secrets be stored?",
+          "options": [
+            "Protected secret storage",
+            "README text",
+            "Public source code",
+            "CSS variables"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "cicdgithubaction_q3",
+          "question": "Why run tests in CI?",
+          "options": [
+            "Catch regressions before deployment",
+            "Make files larger",
+            "Change UI colors",
+            "Create users manually"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "linux-server-admin",
+      "title": "Linux & Server Administration",
+      "category": "Cloud & DevOps",
+      "level": "Beginner",
+      "duration": "5 weeks",
+      "rating": 4.7,
+      "students": 688,
+      "price": 0,
+      "description": "Build confidence with Linux commands, permissions, processes, networking and basic server operations used in deployment support.",
+      "skills": [
+        "Linux",
+        "CLI",
+        "Permissions",
+        "Processes",
+        "Server Administration"
+      ],
+      "cover": "images/courses/eng105.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "lnl1",
+          "title": "Filesystem & Shell Navigation",
+          "duration": "18 min",
+          "content": "Navigate files and directories confidently from the command line."
+        },
+        {
+          "id": "lnl2",
+          "title": "Users, Groups & Permissions",
+          "duration": "24 min",
+          "content": "Control access with users, groups and file permission modes."
+        },
+        {
+          "id": "lnl3",
+          "title": "Processes & Services",
+          "duration": "23 min",
+          "content": "Inspect processes and understand long-running application services."
+        },
+        {
+          "id": "lnl4",
+          "title": "Networking Basics",
+          "duration": "25 min",
+          "content": "Check ports, connectivity and common server networking information."
+        },
+        {
+          "id": "lnl5",
+          "title": "Logs & Troubleshooting",
+          "duration": "24 min",
+          "content": "Use logs and system information to isolate common deployment issues."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "linuxserveradmin_q1",
+          "question": "Which command lists files in Linux?",
+          "options": [
+            "ls",
+            "paint",
+            "route-js",
+            "select *"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "linuxserveradmin_q2",
+          "question": "What do file permissions control?",
+          "options": [
+            "Who can read, write or execute",
+            "Cloud pricing",
+            "Browser tabs",
+            "Database indexes only"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "linuxserveradmin_q3",
+          "question": "Why are logs useful?",
+          "options": [
+            "Troubleshooting system behavior",
+            "Changing passwords automatically",
+            "Creating CSS",
+            "Scaling images"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "aws-solutions-foundations",
+      "title": "AWS Solutions Foundations",
+      "category": "Cloud & DevOps",
+      "level": "Intermediate",
+      "duration": "7 weeks",
+      "rating": 4.9,
+      "students": 970,
+      "price": 0,
+      "description": "Design a simple cloud architecture using EC2, S3, RDS, networking, IAM and reliability principles.",
+      "skills": [
+        "AWS",
+        "EC2",
+        "S3",
+        "RDS",
+        "IAM",
+        "Cloud Computing"
+      ],
+      "cover": "images/courses/aws-devops.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "awl1",
+          "title": "Cloud Architecture Basics",
+          "duration": "19 min",
+          "content": "Map application components to compute, storage, networking and managed services."
+        },
+        {
+          "id": "awl2",
+          "title": "EC2 Compute Fundamentals",
+          "duration": "25 min",
+          "content": "Launch and reason about virtual servers, security groups and instance sizing."
+        },
+        {
+          "id": "awl3",
+          "title": "S3 Object Storage",
+          "duration": "22 min",
+          "content": "Store static assets, backups and application objects with access controls."
+        },
+        {
+          "id": "awl4",
+          "title": "RDS Managed Databases",
+          "duration": "24 min",
+          "content": "Understand managed relational databases, backups and connection security."
+        },
+        {
+          "id": "awl5",
+          "title": "IAM & Least Privilege",
+          "duration": "25 min",
+          "content": "Grant only the permissions users and services actually need."
+        },
+        {
+          "id": "awl6",
+          "title": "Reliability & Cost Awareness",
+          "duration": "28 min",
+          "content": "Plan monitoring, backups, redundancy and cost-conscious scaling."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "awssolutionsfoun_q1",
+          "question": "What is EC2 mainly used for?",
+          "options": [
+            "Virtual compute",
+            "CSS styling",
+            "Email templates",
+            "Local-only files"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "awssolutionsfoun_q2",
+          "question": "What type of storage is S3?",
+          "options": [
+            "Object storage",
+            "RAM",
+            "CPU cache",
+            "Relational table"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "awssolutionsfoun_q3",
+          "question": "What does least privilege mean?",
+          "options": [
+            "Grant only necessary permissions",
+            "Give everyone admin",
+            "Disable authentication",
+            "Share one password"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "system-design-web",
+      "title": "System Design for Web Applications",
+      "category": "Software Engineering",
+      "level": "Advanced",
+      "duration": "7 weeks",
+      "rating": 4.9,
+      "students": 865,
+      "price": 0,
+      "description": "Learn to reason about scalable web architecture, caching, databases, queues, availability and engineering tradeoffs.",
+      "skills": [
+        "System Design",
+        "Scalability",
+        "Caching",
+        "Databases",
+        "Reliability"
+      ],
+      "cover": "images/courses/reliability.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "sdl1",
+          "title": "Requirements & Capacity Thinking",
+          "duration": "22 min",
+          "content": "Turn product requirements into traffic, storage and reliability assumptions."
+        },
+        {
+          "id": "sdl2",
+          "title": "Load Balancing & Stateless Services",
+          "duration": "26 min",
+          "content": "Distribute traffic and design services that scale horizontally."
+        },
+        {
+          "id": "sdl3",
+          "title": "Caching Strategies",
+          "duration": "25 min",
+          "content": "Use browser, CDN and application caches with clear invalidation rules."
+        },
+        {
+          "id": "sdl4",
+          "title": "Database Scaling Choices",
+          "duration": "30 min",
+          "content": "Compare indexing, read replicas, partitioning and consistency tradeoffs."
+        },
+        {
+          "id": "sdl5",
+          "title": "Queues & Asynchronous Work",
+          "duration": "27 min",
+          "content": "Move slow or bursty work out of synchronous request paths."
+        },
+        {
+          "id": "sdl6",
+          "title": "Reliability & Observability",
+          "duration": "29 min",
+          "content": "Design health checks, metrics, logs and graceful failure behavior."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "systemdesignweb_q1",
+          "question": "Why use a load balancer?",
+          "options": [
+            "Distribute traffic across instances",
+            "Encrypt CSS",
+            "Store images in RAM only",
+            "Compile JavaScript"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "systemdesignweb_q2",
+          "question": "What is a key challenge with caching?",
+          "options": [
+            "Invalidation and stale data",
+            "HTML indentation",
+            "Font loading only",
+            "Naming variables"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "systemdesignweb_q3",
+          "question": "Why use a queue?",
+          "options": [
+            "Decouple asynchronous work",
+            "Replace all databases",
+            "Style pages",
+            "Create static types"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "web-security-owasp",
+      "title": "Web Security & OWASP Essentials",
+      "category": "Software Engineering",
+      "level": "Intermediate",
+      "duration": "6 weeks",
+      "rating": 4.9,
+      "students": 911,
+      "price": 0,
+      "description": "Learn defensive web security practices for authentication, input handling, access control, secrets and common OWASP-style risks.",
+      "skills": [
+        "Web Security",
+        "OWASP",
+        "Authentication",
+        "Authorization",
+        "Secure Coding"
+      ],
+      "cover": "images/courses/testing.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "wsl1",
+          "title": "Security Mindset & Threat Surfaces",
+          "duration": "20 min",
+          "content": "Identify trust boundaries, sensitive data and common attack surfaces."
+        },
+        {
+          "id": "wsl2",
+          "title": "Authentication & Session Safety",
+          "duration": "25 min",
+          "content": "Protect passwords, sessions and account workflows with secure defaults."
+        },
+        {
+          "id": "wsl3",
+          "title": "Authorization & Access Control",
+          "duration": "24 min",
+          "content": "Enforce permissions on the server for every protected action."
+        },
+        {
+          "id": "wsl4",
+          "title": "Injection & Input Handling",
+          "duration": "27 min",
+          "content": "Use safe parameterization, validation and output encoding practices."
+        },
+        {
+          "id": "wsl5",
+          "title": "Secrets, Headers & HTTPS",
+          "duration": "22 min",
+          "content": "Handle secrets correctly and understand core browser security headers."
+        },
+        {
+          "id": "wsl6",
+          "title": "Security Testing Checklist",
+          "duration": "25 min",
+          "content": "Review critical flows and verify protections before release."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "websecurityowasp_q1",
+          "question": "Where should authorization be enforced?",
+          "options": [
+            "On the server",
+            "Only in hidden buttons",
+            "Only in CSS",
+            "Nowhere"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "websecurityowasp_q2",
+          "question": "How should SQL input usually be handled?",
+          "options": [
+            "Parameterized queries",
+            "String concatenation",
+            "HTML comments",
+            "Public variables"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "websecurityowasp_q3",
+          "question": "Where should API secrets be stored?",
+          "options": [
+            "Protected server configuration",
+            "Public repository",
+            "Browser localStorage for everyone",
+            "Page title"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "react-performance-testing",
+      "title": "Advanced React: Performance & Testing",
+      "category": "Frontend",
+      "level": "Advanced",
+      "duration": "6 weeks",
+      "rating": 4.8,
+      "students": 733,
+      "price": 0,
+      "description": "Improve React applications with profiling, render optimization, component testing and integration-focused test strategy.",
+      "skills": [
+        "React",
+        "Performance",
+        "Unit Testing",
+        "Integration Testing",
+        "Testing Library"
+      ],
+      "cover": "images/courses/testing.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "rpl1",
+          "title": "Measure Before Optimizing",
+          "duration": "18 min",
+          "content": "Use profiling data to find actual rendering and loading bottlenecks."
+        },
+        {
+          "id": "rpl2",
+          "title": "Render Optimization Patterns",
+          "duration": "26 min",
+          "content": "Apply memoization and component boundaries only where they provide value."
+        },
+        {
+          "id": "rpl3",
+          "title": "Component Unit Testing",
+          "duration": "24 min",
+          "content": "Test component behavior through user-visible outcomes rather than internals."
+        },
+        {
+          "id": "rpl4",
+          "title": "Integration Testing",
+          "duration": "28 min",
+          "content": "Verify connected UI, state and API boundaries with realistic flows."
+        },
+        {
+          "id": "rpl5",
+          "title": "Performance Budgets",
+          "duration": "22 min",
+          "content": "Track bundle size, loading speed and user-facing responsiveness over time."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "reactperformance_q1",
+          "question": "What should come before optimization?",
+          "options": [
+            "Measurement",
+            "Random memoization",
+            "Deleting tests",
+            "Changing colors"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "reactperformance_q2",
+          "question": "What should UI tests prefer?",
+          "options": [
+            "User-observable behavior",
+            "Private implementation details",
+            "Line numbers",
+            "CSS file names"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "reactperformance_q3",
+          "question": "What can a performance budget track?",
+          "options": [
+            "Bundle size and loading metrics",
+            "Only passwords",
+            "Database names",
+            "Git usernames"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "tensorflow-ml",
+      "title": "Machine Learning with TensorFlow",
+      "category": "AI & Robotics",
+      "level": "Intermediate",
+      "duration": "7 weeks",
+      "rating": 4.8,
+      "students": 821,
+      "price": 0,
+      "description": "Build a practical machine-learning foundation using TensorFlow for data preparation, training, evaluation and model improvement.",
+      "skills": [
+        "TensorFlow",
+        "Machine Learning",
+        "Neural Networks",
+        "Model Training",
+        "Evaluation"
+      ],
+      "cover": "images/courses/ai330.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "tfl1",
+          "title": "ML Workflow & Data Splits",
+          "duration": "20 min",
+          "content": "Separate training, validation and test data and define a measurable objective."
+        },
+        {
+          "id": "tfl2",
+          "title": "TensorFlow Tensors & Datasets",
+          "duration": "24 min",
+          "content": "Represent numerical data and create efficient input pipelines."
+        },
+        {
+          "id": "tfl3",
+          "title": "Neural Network Foundations",
+          "duration": "28 min",
+          "content": "Build simple layered models and understand activations and loss functions."
+        },
+        {
+          "id": "tfl4",
+          "title": "Training & Evaluation",
+          "duration": "30 min",
+          "content": "Train models, monitor metrics and evaluate on unseen data."
+        },
+        {
+          "id": "tfl5",
+          "title": "Overfitting & Regularization",
+          "duration": "25 min",
+          "content": "Recognize overfitting and use regularization and data strategies to reduce it."
+        },
+        {
+          "id": "tfl6",
+          "title": "Model Saving & Inference",
+          "duration": "23 min",
+          "content": "Persist trained models and prepare them for application inference."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "tensorflowml_q1",
+          "question": "Why keep test data separate?",
+          "options": [
+            "Measure generalization on unseen data",
+            "Increase CSS speed",
+            "Create routes",
+            "Store passwords"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "tensorflowml_q2",
+          "question": "What does a loss function measure?",
+          "options": [
+            "Prediction error",
+            "Screen size",
+            "Network port",
+            "File count"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "tensorflowml_q3",
+          "question": "What is overfitting?",
+          "options": [
+            "Learning training data too specifically",
+            "A failed HTTP request",
+            "A database join",
+            "A CSS overflow"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "llm-rag-apps",
+      "title": "LLM Apps & Retrieval-Augmented Generation",
+      "category": "AI & Automation",
+      "level": "Advanced",
+      "duration": "7 weeks",
+      "rating": 4.9,
+      "students": 894,
+      "price": 0,
+      "description": "Design practical LLM applications with prompting, retrieval, embeddings, tool use, evaluation and safety-aware application patterns.",
+      "skills": [
+        "LLMs",
+        "RAG",
+        "Embeddings",
+        "Prompting",
+        "AI Agents"
+      ],
+      "cover": "images/courses/agents.svg",
+      "instructorId": "usr_instructor",
+      "published": true,
+      "passPercent": 70,
+      "lessons": [
+        {
+          "id": "lll1",
+          "title": "LLM Application Architecture",
+          "duration": "20 min",
+          "content": "Understand model calls, prompts, context windows and application orchestration."
+        },
+        {
+          "id": "lll2",
+          "title": "Prompt Design & Structured Outputs",
+          "duration": "25 min",
+          "content": "Create prompts that produce predictable, machine-usable outputs."
+        },
+        {
+          "id": "lll3",
+          "title": "Embeddings & Semantic Retrieval",
+          "duration": "28 min",
+          "content": "Represent text for similarity search and retrieve relevant context."
+        },
+        {
+          "id": "lll4",
+          "title": "Building a RAG Pipeline",
+          "duration": "32 min",
+          "content": "Chunk documents, retrieve evidence and ground model responses in source material."
+        },
+        {
+          "id": "lll5",
+          "title": "Tool Use & Agent Loops",
+          "duration": "29 min",
+          "content": "Connect models to controlled tools and design bounded agent workflows."
+        },
+        {
+          "id": "lll6",
+          "title": "Evaluation, Safety & Reliability",
+          "duration": "30 min",
+          "content": "Measure answer quality, detect failures and add practical safeguards."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "llmragapps_q1",
+          "question": "What does RAG add to an LLM app?",
+          "options": [
+            "Retrieved external context",
+            "A CSS framework",
+            "A SQL engine",
+            "A browser extension"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "llmragapps_q2",
+          "question": "What are embeddings useful for?",
+          "options": [
+            "Semantic similarity",
+            "Password hashing",
+            "Image resizing only",
+            "DNS configuration"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "llmragapps_q3",
+          "question": "Why evaluate LLM outputs?",
+          "options": [
+            "Models can be inconsistent or incorrect",
+            "To change font size",
+            "To remove APIs",
+            "To avoid all logging"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enr_demo_1",
+      "userId": "usr_student",
+      "courseId": "fullstack-web",
+      "enrolledAt": "2026-09-01T10:00:00.000Z",
+      "completedLessonIds": [
+        "fs1",
+        "fs2",
+        "fs3"
+      ],
+      "quizAttempts": [],
+      "quizBestScore": null,
+      "certificateIssuedAt": null,
+      "activity": [
+        {
+          "type": "lesson",
+          "text": "Completed \u201cJavaScript for Interactive Apps\u201d",
+          "at": "2026-09-09T13:15:00.000Z"
+        },
+        {
+          "type": "enrolled",
+          "text": "Enrolled in Full Stack Web Development",
+          "at": "2026-09-01T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "enr_demo_2",
+      "userId": "usr_student",
+      "courseId": "javascript-core",
+      "enrolledAt": "2026-08-15T10:00:00.000Z",
+      "completedLessonIds": [
+        "js1",
+        "js2",
+        "js3",
+        "js4"
+      ],
+      "quizAttempts": [
+        {
+          "score": 3,
+          "total": 3,
+          "percent": 100,
+          "passed": true,
+          "at": "2026-08-28T11:00:00.000Z"
+        }
+      ],
+      "quizBestScore": 100,
+      "certificateIssuedAt": "2026-08-28T11:00:00.000Z",
+      "certificateId": "CP-2026-DEMO01",
+      "activity": [
+        {
+          "type": "certificate",
+          "text": "Certificate earned for Modern JavaScript Essentials",
+          "at": "2026-08-28T11:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}
